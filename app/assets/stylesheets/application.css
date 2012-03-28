@@ -69,4 +69,4 @@ table {
 }
 
 #wrapper {min-height:100%;}
-#container {margin:0px auto; width:960px; background:none; overflow:auto; padding-bottom:60px; }
+#container {margin:0px auto; width:960px; background:none; overflow:auto; padding:10px 10px 60px 10px; }

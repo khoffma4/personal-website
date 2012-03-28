@@ -8,7 +8,9 @@ KevHoffman::Application.routes.draw do
   get "crowdchirp" => "static#crowdchirp", as: :crowdchirp
 
   resources :posts
-
+  resources :sessions
+  get '/logout' => 'sessions#destroy', :as => :logout
+  
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

@@ -8,4 +8,8 @@
 	
 	<%= render "layouts/menu"%>
 
+<% if session[:user_id] %>
+<%= link_to "Sign Out", logout_url %>
+<% end %>
+
 </div>

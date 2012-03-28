@@ -1,0 +1,16 @@
+<% @posts.each do |post| %>
+<div class ="post-condensed">
+    <h2><%= link_to post.title, post %></h2>
+	<p class="date">written on: <%= post.created_at.to_date %>
+	</p>	
+	<div class="clear"></div>
+    <p class="post-overview">
+		<%= post.overview %> ... <%= link_to "Read More", post %>
+	</p>
+
+</div>
+<% end %>
+
+<br />
+
+<%= link_to 'New Post', new_post_path %>

@@ -1,0 +1,14 @@
+#header {width:100%; background:#555; height:60px;}
+
+#header #name {float:left; margin:10px 20px;}
+
+#header #name h1 a {line-height:40px; font-size:28px; color:#fff;}
+#header #name h1 a:hover {background:none; color:#fff}
+
+
+#header #nav {float:left; margin:20px; height:20px; line-height:20px;}
+#header #nav ul {}
+#header #nav ul li {margin-left:20px; float:left; padding-left:20px; border-left:1px solid #444}
+#header #nav ul li:last-child {margin-left:20px; float:left; padding:0px 20px; border-right:1px solid #444}
+
+#header #nav ul li a {color:#08C}

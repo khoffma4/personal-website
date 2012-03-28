@@ -1,0 +1,11 @@
+// Place all the styles related to the Posts controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.post-condensed {width:95%; margin:1%; border:1px solid #ccc; border-radius:4px; padding:5px; background: -webkit-linear-gradient(top, #fff, #eee);}
+.post-condensed h2 {line-height:30px; font-size:20px; float:left}
+.date {float:left; line-height:30px; margin-left:10px}
+.post-overview {font-size:14px; line-height:16px}
+
+.post-title {margin:10px 0px}
+.post-body {line-height:16px; font-size:14px; margin-bottom:10px}

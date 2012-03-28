@@ -1,7 +1,7 @@
 <% @posts.each do |post| %>
 <div class ="post-condensed">
     <h2><%= link_to post.title, post %></h2>
-	<p class="date">written on: <%= post.created_at.to_date %>
+	<p class="date"><%= post.created_at.strftime("written on %B %d, %Y") %>
 	</p>	
 	<div class="clear"></div>
     <p class="post-overview">

@@ -13,4 +13,5 @@
 
 <% if session[:user_id] %>
 <%= link_to "Edit", edit_post_url %>
+<%= link_to 'Delete', @post, confirm: 'Are you sure?', method: :delete %>
 <% end %>

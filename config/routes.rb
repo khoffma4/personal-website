@@ -6,6 +6,7 @@ KevHoffman::Application.routes.draw do
   get "about" => "static#about", as: :about
   get "portfolio" => "static#portfolio", as: :portfolio
   get "crowdchirp" => "static#crowdchirp", as: :crowdchirp
+  get "contact" => "static#contact", as: :contact
 
   resources :posts
   resources :sessions

@@ -2,10 +2,12 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.post-condensed {width:95%; margin:1%; border:1px solid #ccc; border-radius:4px; padding:5px; background: -webkit-linear-gradient(top, #fff, #eee);}
-.post-condensed h2 {line-height:30px; font-size:20px; float:left}
+.post-condensed {max-width:600px; margin:10px auto 0px auto; /*border:1px solid #ccc;*/ /*border-radius:4px; padding:5px;*//* background: -webkit-linear-gradient(top, #fff, #eee);*/; border-bottom:3px solid #ddd; padding-bottom:10px}
+.post-condensed h2 a {line-height:30px; font-size:20px; float:left; color:#222}
 .date {float:left; line-height:30px; margin-left:10px}
-.post-overview {font-size:14px; line-height:16px}
+.post-overview {font-size:14px; }
 
+.show-post {max-width:600px; margin:0px auto}
 .post-title {margin:10px 0px}
-.post-body {line-height:16px; font-size:14px; margin-bottom:10px}
+.post-body {font-size:14px; margin-bottom:10px;}
+.show-post .back {line-height:30px}

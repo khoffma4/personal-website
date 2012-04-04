@@ -1,14 +1,13 @@
-#header {width:100%; background:#555; height:60px;}
+#header {width:100%; background:#fff; height:50px; border-bottom:1px dotted #08C}
 
-#header #name {float:left; margin:10px 20px;}
+#header #name {float:left; margin:20px 20px 0px 0px;}
 
-#header #name h1 a {line-height:40px; font-size:28px; color:#fff;}
-#header #name h1 a:hover {background:none; color:#fff}
+#header #name h1 a {line-height:32px; font-size:32px; color:#08C; letter-spacing:-2px; }
+#header #name h1 a:hover {background:none; color:#08C}
 
 
-#header #nav {float:left; margin:20px; height:20px; line-height:20px;}
+#header #nav {float:right; background:#08C; margin-top:16px; height:30px; line-height:30px; border-radius:4px 4px 0px 0px; padding-top:5px}
 #header #nav ul {}
-#header #nav ul li {margin-left:20px; float:left; padding-left:20px; border-left:1px solid #444}
-#header #nav ul li:last-child {margin-left:20px; float:left; padding:0px 20px; border-right:1px solid #444}
-
-#header #nav ul li a {color:#08C}
+#header #nav ul li {margin:5px 20px 0px 20px ; float:left; padding-left:20px;}
+#header #nav ul li a {color:#fff}
+#header #nav ul li a:hover {color:#ddd}

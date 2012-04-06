@@ -4,7 +4,7 @@
 	<h1 class="post-title">
 		<%= @post.title %>
 	</h1>
-	<p>written on<%= @post.created_at.to_date %></p>
+	<p><%= @post.created_at.strftime("written on %B %d, %Y")  %></p>
 	<p class="post-body">
 		<%= @post.content.html_safe %>
 	</p>

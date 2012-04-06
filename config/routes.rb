@@ -11,6 +11,7 @@ KevHoffman::Application.routes.draw do
   resources :posts
   resources :sessions
   get '/logout' => 'sessions#destroy', :as => :logout
+  get '/resume' => 'resumes#resume' , :as => :resume
   
   # The priority is based upon order of creation:
   # first created -> highest priority.

@@ -5,7 +5,7 @@ class PostsController < ApplicationController
   before_filter :require_login, :except => [:index, :show]
   
   def index
-    @posts = Post.all
+    @posts = Post.order('created_at DESC').all
 
     respond_to do |format|
       format.html # index.html.erb

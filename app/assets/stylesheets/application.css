@@ -9,11 +9,17 @@
  * compiled file, but it's generally better to create a new file per style scope.
  *
  *= require_self
- *= require_tree .
+ *= require header
+ *= require footer
+ *= require portfolio
+ *= require posts
+ *= require projects
+ *= require sessions
+ *= require static
 */
 
 html {height:100%}
-* {margin:0px; padding:0px; font-family:'Lucida Sans Unicode', 'Lucida Grande', Tahoma, sans-serif; color:#222; line-height:1em}
+* {margin:0px; padding:0px; font-family:'Lucida Sans Unicode', sans-serif; color:#222; line-height:1.25em; font-weight:200}
 a {text-decoration:none; color:#08C}
 a:hover {background:none}
 .clear {clear:both;}
